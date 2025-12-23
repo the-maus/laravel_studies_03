@@ -17,7 +17,7 @@
 </div> --}}
 
 {{-- multiple slot --}}
-<x-multi-slot>
+{{-- <x-multi-slot>
     <x-slot:title>This is the title</x-slot>
     <x-slot:content>This is the content</x-slot>
     <x-slot:footer>
@@ -27,6 +27,11 @@
             <li>3</li>
         </ul>
     </x-slot>
-</x-multi-slot>
+</x-multi-slot> --}}
+
+<h4>Anonymous component</h4>
+<x-alert-card>First message</x-alert-card>
+<x-alert-card>Second message</x-alert-card>
+<x-alert-card>Third message</x-alert-card>
 
 @endsection
