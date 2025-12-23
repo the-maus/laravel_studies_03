@@ -11,9 +11,9 @@ class MainController extends Controller
     {
         // languages each person speaks
         $person_languages = [
-            'John' => ['Portuguese', 'English'],
-            'Jane' => ['Portuguese', 'Spanish'],
-            'Anne' => ['Portuguese', 'English', 'French'],
+            'Charles' => ['Portuguese', 'English'],
+            'Mark' => ['Portuguese', 'Spanish'],
+            'Caroline' => ['Portuguese', 'English', 'French'],
         ];
 
         return view('home', compact('person_languages'));

@@ -12,8 +12,8 @@ class PersonCard extends Component
      * Create a new component instance.
      */
     public function __construct(
-        public string $personName, //person-name on component call
-        public array $personLanguages //person-languages...
+        public string $person,
+        public array $languages
     )
     {}
 

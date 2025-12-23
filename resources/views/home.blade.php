@@ -4,7 +4,7 @@
 <div class="text-center">
     @foreach ($person_languages as $person => $languages)
         {{-- component --}}
-        <x-person-card :person-name="$person" :person-languages="$languages"/>
+        <x-person-card :$person :$languages/>
     @endforeach
 </div>
 
