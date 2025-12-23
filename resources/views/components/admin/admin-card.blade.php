@@ -1,0 +1,1 @@
+<h1 class="text-info">This is the Admin component content</h1>

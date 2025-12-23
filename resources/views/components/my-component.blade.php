@@ -1,0 +1,1 @@
+<h1 class="text-info">This is the component content</h1>
